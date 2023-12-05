@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#display {
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    background-color: cornflowerblue;
+    color:bisque(225,225,225);
+
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
